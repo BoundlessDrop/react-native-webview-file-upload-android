@@ -241,6 +241,8 @@ class AndroidWebView extends Component {
      * Make upload file available
      */
     uploadEnabledAndroid: PropTypes.bool,
+    thirdPartyCookiesEnabled: PropTypes.bool,
+    urlPrefixesForDefaultIntent: PropTypes.array,
   };
 
   static defaultProps = {
